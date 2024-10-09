@@ -1,5 +1,5 @@
-import '../feature/presentation/views/login_view.dart';
-import '../feature/presentation/views/splace_screen/splash_screen.dart';
+import '../presentation/views/login_view.dart';
+import '../presentation/views/splace_screen/splash_screen.dart';
 import 'package:get/get.dart';
 
 class NamedRoutes {
