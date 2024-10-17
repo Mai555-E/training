@@ -1,9 +1,10 @@
 import 'dart:async';
 
+import '../../../resources/images.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../resourses/routes.dart';
+import '../../../resources/routes.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -35,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Align(
                 alignment: Alignment.topCenter,
                 child: Image.asset(
-                  "assets/images/light_splash.png",
+                  NamedImages.splashImage,
                   width: 300,
                   height: 330,
                 )),
